@@ -49,4 +49,4 @@ Click the "Deploy to Azure" button and fill out the deployment form
 - Create/configure a Compliance Policy and add the HTTP Endpoint you defined earlier as the notification target
 - To test the integration, go into Compliance Policies, find the appopriate ruleset and click the "Send All Alerts" icon on the right hand side (up arrow icon), select Notification Type as Webhook and Notification as the Teams Connector Webhook URL from Azure Functions
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchrisbeckett%2Fdome9-teams-connector%2Fmaster%2Fdeployment-template.json)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchrisbeckett%2Fcg-jira-connector%2Fmaster%2Fdeployment-template.json)
