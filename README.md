@@ -33,6 +33,8 @@ Run **git clone https://github.com/chrisbeckett/cg-jira-connector.git**
 - The documentation for this is at https://confluence.atlassian.com/adminjiraserver/create-edit-or-remove-a-user-938847025.html
 - Login as the CloudGuard service account user and create an API token, giving it a sensible name. Write this value down, it's not repeated!
 - API tokens are minted at https://id.atlassian.com/manage-profile/security/api-tokens
+- Find the Jira Project ID and make a note of the value (https://confluence.atlassian.com/jirakb/how-to-get-project-id-from-the-jira-user-interface-827341414.html)
+- Find the Jira Issue Type ID and make a note of the value (https://confluence.atlassian.com/jirakb/finding-the-id-for-issue-types-646186508.html)
 
 ## Deploying the Azure Function
 
