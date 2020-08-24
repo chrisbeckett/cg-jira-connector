@@ -132,4 +132,5 @@ local.settings.json
 
 include
 Scripts
-pyenv.cfg
+pyvenv.cfg
+.funcignore
