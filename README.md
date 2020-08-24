@@ -50,3 +50,8 @@ Click the "Deploy to Azure" button and fill out the deployment form
 - To test the integration, go into Compliance Policies, find the appopriate ruleset and click the "Send All Alerts" icon on the right hand side (up arrow icon), select Notification Type as Webhook and Notification as the Teams Connector Webhook URL from Azure Functions
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchrisbeckett%2Fcg-jira-connector%2Fmaster%2Fdeployment-template.json)
+
+## Limitations
+
+This release does not support any custom fields or the Jira Service Desk application. This may come in future releases, and then again, it may not.
+
