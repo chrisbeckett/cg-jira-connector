@@ -53,5 +53,5 @@ Click the "Deploy to Azure" button and fill out the deployment form
 
 ## Limitations
 
-This release does not support any custom fields or the Jira Service Desk application. This may come in future releases, and then again, it may not.
+This release does not support any custom fields or the Jira Service Desk application. This may come in future releases, and then again, it may not. I might also create a CloudFormation for AWS Lambda deployment, it depends how many people complain about it!
 
