@@ -9,7 +9,7 @@ import azure.functions as func
 #Set Jira parameters
 jira_project_id=os.getenv('JIRA_PROJECT_ID')
 jira_issue_type_id=os.getenv('JIRA_ISSUE_TYPE_ID')
-jira_api_endpoint_url = 'https://cbeckett.atlassian.net/rest/api/3/issue/'
+jira_api_endpoint_url = os.getenv('JIRA_API_ENDPOINT_URL')
 jira_api_token = os.getenv('JIRA_API_TOKEN')
 jira_api_email_address = os.getenv('JIRA_API_EMAIL')
 jira_auth = HTTPBasicAuth(jira_api_email_address, jira_api_token)
